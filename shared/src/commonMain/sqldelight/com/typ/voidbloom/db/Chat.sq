@@ -1,0 +1,30 @@
+CREATE TABLE chat (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    pubId TEXT NOT NULL,
+    content TEXT NOT NULL,
+    role TEXT NOT NULL
+);
+
+-- Insert a chat message
+insertMessage:
+INSERT INTO chat(pubId, content, role)
+VALUES (?, ?, ?);
+
+-- Get all chat messages (ordered by insertion)
+selectAll:
+SELECT * FROM chat;
+
+-- Get chat messages by publication id
+selectByPubId:
+SELECT * FROM chat
+WHERE pubId = ?
+ORDER BY rowid;
+
+-- Delete all chat messages
+deleteAll:
+DELETE FROM chat;
+
+-- Delete by pubId
+deleteByPubId:
+DELETE FROM chat
+WHERE pubId = ?;

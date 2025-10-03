@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <!--*  Global   -->
+    <string name="appName">Voidbloom</string>
+    <string name="back">Back</string>
+
+    <!--*  Onboarding - Start   -->
+    <string name="onboardingStartContentTitle">A nice learning journey awaits you!</string>
+    <string name="onboardingStartContentBody1">Learn, Search, Chat, Have access to around</string>
+    <string name="onboardingStartContentBody2">608 original NASA Space Biology Publications</string>
+    <string name="onboardingStartContentBody3">in your hand</string>
+    <string name="letsBeginJourney">Let's Begin Journey</string>
+    <!--*  Onboarding - Set Age   -->
+    <string name="kid">Kid</string>
+    <string name="adult">Adult</string>
+    <string name="grownup">Grownup</string>
+    <string name="confirmAge">Confirm Age</string>
+    <string name="onboardingSetAgeMsg">Setting this helps Voidbloom AI Engine to craft responses suitable for your age</string>
+    <!--*  Onboarding - Set Style   -->
+    <string name="titleOversimplified">Oversimplified</string>
+    <string name="titleRegular">Regular</string>
+    <string name="titleOverexplained">Overexplained</string>
+    <string name="descOversimplified">Simple, Clear, Abstracted</string>
+    <string name="descRegular">Focus on topic without losing much details</string>
+    <string name="descOverexplained">Raw, Suitable for Scientists and Researchers</string>
+    <string name="finishSetup">Finish Setup</string>
+    <string name="onboardingSetStyleMsg">Personalize the way you want Voidbloom AI Engine to craft his responses</string>
+
+    <!--*  Onboarding - Configuring AI Engine   -->
+    <string name="settingUp">Setting up...</string>
+    <string name="enterVoidbloom">Enter Voidbloom</string>
+    <string name="ready">Ready !</string>
+
+    <!--*  Home   -->
+    <string name="homeAppDescText">Your first AI-powered NASA Space Biology Encyclopedia app</string>
+    <string name="titleRandomFact">Random Fact</string>
+    <string name="titleSuggestedPublications">Suggested Publications</string>
+    <string name="exploreVoidbloom">Explore Voidbloom</string>
+    <string name="homeActionPublicationTitle">Publications</string>
+    <string name="homeActionPublicationDesc">Explore around 608 of original NASA Space Biology Publications</string>
+    <string name="homeActionAdvancedToolsTitle">Advanced Tools</string>
+    <string name="homeActionAdvancedToolsDesc">Search, Filter, Relate, Visualize</string>
+    <string name="homeActionAiChatTitle">Voidbloom AI Companion</string>
+    <string name="homeActionAiChatDesc">Discuss articles and publications with our AI Companion</string>
+    <string name="homeActionLibraryTitle">Nasa Library</string>
+    <string name="homeActionLibraryDesc">Browse publications on their original source (Recommended for Experts)</string>
+    <string name="homeActionSettingsTitle">Settings</string>
+    <string name="homeActionSettingsDesc">Customize how Voidbloom behaves</string>
+    <string name="homeActionFactsTitle">Facts</string>
+    <string name="homeActionFactsDesc">Scientific or Funny. Sure, you will love it</string>
+
+    <!--*  Settings  -->
+    <string name="headerMsgSettingsScreen">Customize how Voidbloom behaves and tweak its AI Engine</string>
+    <string name="agePreference">Age Preference</string>
+    <string name="stylePreference">Style Preference</string>
+    <string name="aiEngineBackend">Voidbloom AI Backend</string>
+    <string name="aiEngineAPIKey">Custom API Key</string>
+    <string name="aiEngineBackendGemini">Google Gemini 2.5-turbo</string>
+    <string name="aiEngineBackendChatGPT">chatGPT 4.5</string>
+    <string name="aiEngineBackendLocalModel">Local Voidbloom model (Soon!)</string>
+    <string name="apiKeyIsSecret">Your AI Engine API Key is secret!</string>
+
+    <!-- *  Publications  -->
+    <string name="headerMsgPublications">Explore around 608 of original NASA Space Biology Publications</string>
+    <string name="pickPublication">Pick Publication</string>
+    <string name="publicationsLibrary">Publications Library</string>
+    <string name="summarizing">Summarizing publication...</string>
+    <string name="summarized">Summarized</string>
+    <string name="original">Original</string>
+    <string name="displayContent">Display content mode</string>
+
+    <!--*  Nasa Library  -->
+    <string name="headerMsgNasaLibrary">Browse publications from their original source (for Experts)</string>
+
+    <!--*  Advanced Tools  -->
+    <string name="headerMsgAdvancedTools">Search, Filter, Relate, Visualize</string>
+    <string name="toolsSearchTitle">Search and Filter</string>
+    <string name="toolsFilterTitle">Filter</string>
+    <string name="toolsRelateTitle">Relate</string>
+    <string name="toolsVisualizeTitle">Visualize and Relate</string>
+    <string name="headerMsgVisualize">Visualize publications categories and relations</string>
+    <string name="visualInsights">Visual insights</string>
+    <string name="headerMsgSearchAndFilter">Search and filter publications by title, keyword, category</string>
+    <string name="headerMsgSearchEmpty">Can't find publications matching</string>
+    <string name="placeholderSearchAndFilter">What to search for...</string>
+    <string name="found">Found</string>
+    <string name="publications">Publications</string>
+    <string name="publication">Publication</string>
+
+    <!--*  Facts  -->
+    <string name="headerMsgFactsScreen">Explore a world of Scientific and Funny fact about Space Biology</string>
+
+    <!--*  Voidbloom Chat  -->
+    <string name="headerMsgVoidbloomChat">Discuss articles and publications with our AI Companion</string>
+    <string name="headerMsgAttachContext">But first, attach a publication to be our context</string>
+    <string name="placeHolderSearchForPublication">Search for publication...</string>
+    <string name="chatContext">Chat Context</string>
+    <string name="attachPublicationContext">Attach Publication Context</string>
+    <string name="botWelcomeMsg">Hello!\nI'm super excited to chat with you about the interesting topic you just picked.\nFeel free to ask, I'm all ears...</string>
+    <string name="placeholderAskAI">Ask me anything...</string>
+    <string name="ask">Ask</string>
+</resources>
